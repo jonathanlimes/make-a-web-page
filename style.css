@@ -1,0 +1,112 @@
+body {
+	background-color: #fff;
+	color: white;
+	font-family: Helvetica, Arial, Sans-Serif;
+}
+
+div {
+	display: block;
+	margin: 10px;
+}
+
+h2 {
+	font-size: 50px;
+	font-weight: bold;
+	margin: 5px 0;
+}
+
+a {
+	color: white;
+}
+
+.wrap {
+	background-image: url(images/wallpaper.jpg);
+}
+
+.background {
+	background-image: url(images/wallpaper2.jpg);
+	border-top: 5px solid #DDDDDD;
+	border-bottom: 5px solid #DDDDDD;
+}
+
+.container {
+	color: black;
+	position: relative;
+}
+
+.title {
+	font-size: 90px;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+	margin: 0px;
+}
+
+.headerlink {
+	background-color: #333;
+	padding: 5px;
+	width: 105px;
+	float: left;
+	font-weight: bold;
+	text-align: center;
+	color: white;
+}
+
+.big {
+	width: 150px;
+}
+
+.text {
+	width: 550px;
+	margin: 0 20px;
+}
+
+.left {
+	float: left;
+	color: white;
+}
+
+.right {
+	float: right;
+	margin-right: 100px;
+}
+
+.header {
+	max-width: 100%;
+	font-size: 12px;
+	text-align: center;
+}
+
+.clear {
+	clear: both;
+}
+
+.whitepic {
+	padding: 5px;
+	border: 5px solid black;
+}
+
+.html-logo {
+	height: 300px;
+	margin-left: 50px;
+}
+
+.css-logo {
+	height: 300px;
+	margin-right: 120px;
+}
+
+.box {
+	height: 220px;
+	margin-left: 50px;
+}
+
+.tape {
+	height: 220px;
+	margin-right: 150px;
+}
+
+.computer {
+	height: 300px;
+	margin-right: 25px;
+}

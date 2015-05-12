@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Jon's Project Page</title>
+</head>
+
+<body>
+  <div class="wrap">
+    <header>
+        <div class="container">
+          <div>
+            <br>
+            <div>
+            <h1 class="title"><b>HTML/CSS BASICS</b></h1>
+            </div>
+            <nav>
+                <div class="headerlink"><a href="#the-web">THE WEB</a></div>
+                <div class="headerlink"><a href="#html">HTML</a></div>
+                <div class="headerlink"><a href="#css">CSS</a></div>
+                <div class="headerlink big"><a href="#box-model">THE BOX MODEL</a></div>
+                <div class="headerlink"><a href="#sizing">SIZING</a></div>
+                <div class="headerlink big"><a href="#flex-boxing">FLEX-BOXING</a></div>
+                <div class="headerlink big"><a href="#mental-models">MENTAL MODELS</a></div>
+            </nav>
+          </div>
+        </div>
+    </header>
+
+    <div>
+        <img class="background header" src="images/header.png" alt="header">
+    </div>
+    
+    <div id="the-web" class="container" style="padding:20px 0;">
+      <div class="text left">
+        <section>
+            <h2>THE WEB</h2><br>
+            The <b>Web</b> was created in the 1990s, and is now currently estimated to hold about 30 billion pages. It is basically a interwoven network of computers that communicate with each other.
+            <br><br>The <b>Internet</b> is almost synonymous with the Web. It is a network of documents that are stored in <b>servers</b>. The internet is able to house all sorts of documents, such as plain text, HTML, links (references to other documents on the web), images, and videos.
+            <br><br>How users commonly access them is through a <b>browser</b>, like Google Chrome.
+            <br><br>How does a browser access documents on servers through the Internet? A browser communicates with a server using a medium of communication that we call <b>HTML (HyperText Markup Language)</b>.<br><br>
+          </section>
+      </div>
+      <figure>
+      <img class="right" src="images/www.png" height="350" alt="www">
+      </figure>
+      <div class="clear"></div>
+    </div>
+
+    <div class="background">
+      <div id="html" class="container">
+        <div class="text right">
+          <section>
+            <br><h2>HTML</h2><br>
+            HTML (HyperText Markup Language) is made up of <b><u>plain text</u></b> (the actual content you see on the web page), as well as <b><u>markup</u></b> (how the content is visually presented on the web page - the <b><u>elements</u></b> of a web page). HTML code adopts a tree-structure, with bigger branches splitting into smaller sub-branches, these sub-branches further splitting into more minute sub-branches.
+            <br><br>As mentioned, a HTML document has <b><u>elements</u></b>: parts that come together to make a web page. Not all elements are visible, such as the 'head' component of the HTML code. All visible elements are actually rectangular or box-like, even if they may appear as other shapes. For example, a circle that appears on the web page is actually a box element. A whole web page is made up of a sum of boxes arranged in different ways.
+            <br><br>To present content with the elements we want, such as italicizing each header just like this web page, we use <b><u>tags</u></b>. Most tags need to be closed with a corresponding closing tag. Otherwise, the tags will apply to the rest of the text, and your content will be presented in ways that you don't actually want.
+            <br><br>There are two types of HTML elements: <b><u>inline</u></b> and <b><u>block</u></b>. Inline elements format content within the same segment of the page. Block elements create a separate segment, or a 'box' in which content is housed. An example of a block element are the separate paragraphs you find on this web page.
+            <br><br>There are also <b><u>attributes</u></b>, which allow you to provide additional instructions within some tags, such as to provide a link to another page.
+            <br><br>There are tons of HTML tags, far more than we can remember at any given point of time. A simple Google search will usually give you the tags you need. A good reference document can be found <a href="http://htmldog.com/reference/htmltags/" style="color: black"><b>here</b></a>!
+            <br><br><br>
+          </section>
+        </div>
+        <br><br><br><br><br><br><br>
+        <figure>
+        <img class="left html-logo whitepic" src="images/html.png" alt="html">
+        </figure>
+        <div class="clear">
+        </div>
+      </div> 
+    </div>
+
+    <div id="css" class="container">
+      <div class="text left">
+        <section>
+            <br><h2>CSS</h2>
+            <br>CSS (Cascading Style Sheets) is used extensively to complement HTML in determining how a web page looks. Think of HTML as the foundation of a house, and CSS are the styles and colors that go into influencing how the house eventually looks. CSS allows you to use specific syntax and rules to change <em>how content looks on a page</em>.
+            <br><br>CSS avoids the repetition that HTML so frequently commits. For example, if you want your h1 headers to be all blue, you don't have to code every single header in HTML to be blue. You designate in CSS that all h1 elements should have a specific color. Or perhaps font family, and size as well.
+            <br><br>The important part about CSS is 'Cascading': This relies on an important concept in programming called <b><u>inheritance</u></b>. Using CSS, we <em>cascade</em> from higher, more general, overarching rules to smaller, more specific rules.
+            <br><br><br><br>
+          </section>
+      </div>
+      <br>
+      <figure>
+      <img class="right css-logo whitepic" src="images/css.png" alt="css">
+      </figure>
+      <div class="clear">
+      </div>
+    </div>
+
+    <div class="background">
+      <div id="box-model" class="container">
+        <div class="text right">
+          <section>
+              <br><br><h2>THE BOX MODEL</h2>
+              <br>Within every box, there are four elements: <b><u>Margin</u></b>, <b><u>Border</u></b>, <b><u>Padding</u></b>, and <b><u>Content</u></b>. Most people who don't know web development don't know that there are three other layers other than the content layer that they see on the page. Each of these layers can be configured for their dimensions and appearance.
+              <br><br><br>
+            </section>
+        </div>
+        <figure>
+        <img class="left box" src="images/box.png" alt="box">
+        </figure>
+        <div class="clear">
+        </div>
+      </div>
+    </div>
+
+    <div id="sizing" class="container">
+      <div class="text left">
+        <section>
+          <br><h2>SIZING ISSUES</h2>
+          <br>You <em>will</em> run into sizing issues. Sizing issues occur when your elements do not fit neatly into the page as represented by the browser window. They may sometimes be too big or too small, or they end up overlapping with other elements on the page.
+          <br><br>There are two ways to deal with sizing issues:<br>
+          Set sizes not in terms of pixels (px), but percentages.<br>
+          Set 'box-sizing' attribute to 'border-box' for every element.
+          <br><br>
+        </section>
+      </div>
+      <br>
+      <figure>
+      <img class="right tape whitepic" src="images/tape.jpg" alt="sizing">
+      </figure>
+      <div class="clear">
+      </div>
+    </div>
+
+    <div class="background">
+      <div id="flex-boxing" class="container">
+        <div class="text right">
+          <section>
+            <br><br><h2>FLEX-BOXING</h2>
+            <br>Elements are <b>block</b> - they will appear just like how an image appears via 'In line with text' in Microsoft Word. In other words, they will appear on their own unique line, making the page look pretty ugly, and difficult to control. If you use 'display:flex;' as a rule for every div element, you will let them appear flexibly side by side! 
+            <br><br><br>
+          </section>
+        </div>
+        <figure>
+        <img class="left box" src="images/box.png" alt="box">
+        </figure>
+        <div class="clear">
+        </div>
+      </div>
+    </div>
+
+    <div id="mental-models" class="container">
+      <div class="text left">
+        <section>
+          <br><h2>MENTAL MODELS FOR A PROGRAMMER</h2><br>
+          <b>Computers are said to be 'stupid',</b> because they interpret all instructions literally. You cannot provide them vague pointers and expect them to infer their orders like humans usually do. They operate on a different dimension of knowledge. However,
+          if you provide clear and structured instructions to a computer, it can act as a powerful tool.
+          <br><br><b>Programming requires systematic thinking and mental discipline.</b> In the case of HTML, it is important to close all tags if they aren't void tags. Programmers need to develop good coding habits such as closing tags.
+          <br><br><b>It's okay not to remember everything.</b> There are too many details to keep everything in your head, and that is perfectly fine. Just look anything up on the Internet if you forget anything. It is your greatest common resource.
+          <br><br><b>Avoid repetition.</b> Simpler is better! Programmers should try to aim for less clutter, less repetition, and more elegance and simplicity in code. The clearer and more efficient it is, the better you and other programmers can work with it.
+          <br><br><b>Code, Test, Refine.</b> Learn to deconstruct website mockups like a Front-End Developer: Look for natural boxes, and look for repeated styles and semantic elements. Write your HTML code, and apply your styles on CSS, going from biggest to smallest. And then fix the small, specific things to continue perfecting your page design!
+          <br><br>
+        </section>
+      </div>
+      <br><br><br><br><br>
+      <figure>
+      <img class="right computer" src="images/computer.png" alt="computer">
+      </figure>
+      <div class="clear">
+      </div>
+    </div>
+
+    <footer class="header"><br><br>
+    JON TURNED CAFFEINE INTO CODE FOR THIS PAGE
+    <br><br>
+    </footer>
+
+  </div>
+</body>
+</html>
